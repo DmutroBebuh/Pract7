@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /*font-family: -apple-system;*/
+    background-image: url("fon2.jpg");
+
+}
+
+.container {
+    flex: 1;
+}
+
+footer {
+    background-color: gray;
+    padding: 20px 0;
+    text-align: center;
+}
+.img-fluid{
+    max-width: 100%;
+    height: 60vh;
+}
+.row{
+    background-image: url("fon.jpg");
+}
+.col-sm-6{}
+.jumbotron{
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    background-color: black;
+color: white;
+}
